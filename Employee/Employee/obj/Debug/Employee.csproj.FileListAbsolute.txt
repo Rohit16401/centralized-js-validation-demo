@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\bin\Employee.dll.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\bin\Employee.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\bin\Employee.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\obj\Debug\Employee.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Employee\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache

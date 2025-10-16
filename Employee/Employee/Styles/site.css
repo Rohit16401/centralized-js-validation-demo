@@ -1,0 +1,97 @@
+﻿/* Global reset & font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.site-header {
+    background: linear-gradient(135deg, #0052cc, #007bff);
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 0.5rem;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700;
+    transform: translateY(-2px);
+}
+
+/* Main content */
+.main-content {
+    padding: 2rem 0;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+.site-footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.site-footer p {
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .site-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+}
+
+/* Hover animations */
+button, a {
+    cursor: pointer;
+}
+
+a.nav-link:active {
+    color: #ffe066;
+}

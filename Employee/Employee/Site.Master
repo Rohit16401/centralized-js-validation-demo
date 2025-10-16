@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Employee.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server">Sample Project To Display Centralized Validation</asp:ContentPlaceHolder>
+    </title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="Styles/site.css" rel="stylesheet" />
+    <asp:PlaceHolder runat="server">
+        <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+    </asp:PlaceHolder>
+</head>
+<body>
+    <form id="masterForm" runat="server">
+        <!-- Global ScriptManager -->
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" />
+
+        <header class="site-header">
+            <div class="container">
+                <h1 class="logo">Centralized Validation</h1>
+                <nav class="navbar">
+                  <a href="~/Default.aspx" runat="server" class="nav-link">🏠 Home</a>
+<a href="~/WebPages/Employees.aspx" runat="server" class="nav-link">👨‍💼 Demo Form</a>
+<a href="~/WebPages/Explanation.aspx" runat="server" class="nav-link">⚙️ Explanation</a>
+
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; 2025 My Company. All rights reserved.</p>
+            </div>
+        </footer>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>
